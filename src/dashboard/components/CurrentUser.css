@@ -1,0 +1,42 @@
+/* current user dropdown */
+.current-user-modal {
+    max-width: 20%; /* Set maximum width */
+    background-color: white; /* Background color */
+    border: 1px solid #ccc; /* Border */
+    position: absolute; /* Position absolute */
+    border-radius: 10px;
+    top: 50px; /* Adjust the top position as needed */
+    right: 0; /* Align to the right */
+    z-index: 9999; /* Ensure the modal appears on top */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 0 10px rgba(246, 244, 244, 0.1); /* Add shadow */
+    margin-right:10px ;
+}
+
+  
+  .current-user-modal p {
+    margin-top: 0; /* Remove margin from heading */
+    font-size: medium;
+  }
+  .current-user-modal span {
+    font-size: small;
+    text-align: center;
+  }
+  .current-user-modal button {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  .current-user-modal button:hover {
+    background-color: #ffffff; /* Change the hover color */
+}
+  .current-user-modal .cross-button {
+    color: #101010;
+  }
+
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    .current-user-modal {
+        max-width: 90%; /* Adjust maximum width for smaller screens */
+        top: 100px; /* Adjust top position for smaller screens */
+    }
+}

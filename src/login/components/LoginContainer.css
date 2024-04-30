@@ -1,0 +1,58 @@
+/* Style for the login form container */
+.login-container {
+    width: 60%; /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    margin-top: 20px;
+    /* margin-left: 50px; */
+
+  }
+  
+  /* Style for the form title */
+  .login-container h2 {
+    margin-bottom: 20px; /* Add spacing below the title */
+    text-align: center;
+  }
+  
+  /* Style for form fields and labels */
+  .form-group {
+    margin-bottom: 15px; /* Add spacing between form fields */
+  }
+  
+  label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Add spacing below labels */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /* Set input fields to fill container width */
+    padding: 10px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add border for input fields */
+    border-radius: 3px; /* Add border radius for input fields */
+  }
+  
+  button {
+    width: 100%; /* Set button to fill container width */
+    padding: 10px; /* Add padding to button */
+    background-color: #3d8778; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 3px; /* Add border radius for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button:hover {
+    background-color: #3d8778; /* Change button background color on hover */
+  }
+
+  /* .toast-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 200px; 
+    z-index: 9999; 
+} */
+

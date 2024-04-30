@@ -1,0 +1,68 @@
+/* OurTeams.css */
+
+.our-teams {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center; /* Center the team members horizontally */
+    flex-wrap: wrap; /* Allow team members to wrap to the next line on smaller screens */
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; /* Adjust margin as needed */
+    flex: 1; /* Distribute available space equally among team members */
+    max-width: 300px; /* Limit maximum width of each team member */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 50px;
+
+
+  }
+  
+  .team-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 3%;
+    margin-bottom: 10px; /* Add space between photo and info */
+  }
+  
+  .team-info {
+    text-align: center;
+  }
+  
+  .team-info h3 {
+    margin-bottom: 10px;
+    color:#3d8778;
+  }
+  .responsibilities{
+    font-weight: lighter;
+    margin-right: 20px;
+    color: rgb(149, 146, 146);
+  }
+  .role{
+    margin-right: 20px;
+    color: rgb(149, 146, 146);
+    font-weight: bold;
+    
+  }
+
+  /* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .team-member {
+      flex-basis: 50%; /* Display two team members per row on smaller screens */
+      max-width: 40%; /* Limit maximum width of each team member */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .team-member {
+      flex-basis: 100%; /* Display one team member per row on even smaller screens */
+      max-width: 80%; /* Limit maximum width of each team member */
+    }
+  }
+  

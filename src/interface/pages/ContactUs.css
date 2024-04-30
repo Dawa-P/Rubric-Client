@@ -1,0 +1,128 @@
+/* ContactUs.css */
+
+.contact-header {
+    margin-top: 150px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .contact-header h1{
+    font-size: 24px;
+    color: #3d8778;
+    margin-bottom: 40px;
+
+  }
+  
+  .contact-us-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px;
+  }
+  .contact-hr{
+    width: 50%;
+    background-color: beige !important;
+  }
+  
+  .contact-details {
+    margin-right: 20px; 
+    margin-left: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add shadow */
+    width: 50%;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px; /* Add spacing between contact-person and contact-number */
+  }
+  
+  .contact-person {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .contact-name{
+    color: rgb(139, 134, 134) !important;
+    font-weight: lighter;
+    margin-left: 30px !important;
+  }
+
+  .contact-role{
+    color: rgb(139, 134, 134) !important;
+    font-size: larger;
+    margin-left: 30px !important;
+
+  }
+  
+  .contact-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .contact-role-container {
+    margin-top: 5px; /* Adjust spacing between image and role */
+  }
+  
+  .contact-number {
+    margin-top: 50px; /* Adjust spacing between contact-person and contact-number */
+    align-items: center;
+    margin-left: 30%;
+  }
+  .contact-number h3{
+    color: #3d8778;
+  }
+
+  .contact-number p{
+    color: rgb(139, 134, 134) !important;
+    font-weight: lighter;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px; /* Add spacing between columns */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    width: 50%;
+    background-color: rgba(225, 239, 239, 0.342);
+  }
+
+  .contact-form span{
+    color: rgb(139, 134, 134) !important;
+    text-align: center;
+    margin-left: 70px;
+  }
+  
+  /* Add more styles as needed */
+  /* Add styles for larger screens */
+@media screen and (min-width: 768px) {
+    .contact-us-content {
+      flex-direction: row;
+    }
+  
+    .contact-details {
+      margin-right: 20px;
+      margin-left: 20px;
+      width: 50%;
+    }
+  
+    .contact-form {
+      margin-right: 20px;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .contact-us-content {
+      flex-direction: column;
+    }
+  
+    .contact-details,
+    .contact-form {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .contact-form {
+      margin-top: 20px;
+    }
+  }

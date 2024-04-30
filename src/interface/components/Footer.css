@@ -1,0 +1,112 @@
+/* Footer.css */
+
+.footer {
+    background-color: #070707bc;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap to the next line on smaller screens */
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-bottom: 20px; /* Add space between sections */
+  }
+  
+  .footer-logo h2 {
+    color: aliceblue; /* Adjust color as needed */
+  }
+  
+  .quick-links h4,
+  .contact-info h4 {
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  .footer-text{
+    font-weight: lighter;
+    line-height: 1.5;
+    color: aliceblue;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .quick-links ul,
+  .contact-info p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .quick-links ul li a,
+  .contact-info p {
+    color: aliceblue; /* Set text color to white */
+    margin-bottom: 20px;
+    text-decoration: none !important; /* Remove underline */
+  }
+  li{
+    margin-bottom: 10px;
+    text-decoration: none !important;
+  }
+  .copyright{
+    display: flex; /* Use Flexbox to align items */
+    justify-content: space-between; /* Space between the two columns */
+    align-items: center; 
+  }
+  .copyright-text{
+    margin-left: 70px;
+  }
+  
+  /* Footer social icons */
+  .social-icons {
+    display: flex; /* Use Flexbox to align items */
+    margin-right: 200px;
+  }
+  
+  /* Style social icons */
+  .social-icon {
+    font-size: 24px; /* Adjust icon size */
+    color: aliceblue;
+    text-align: left;
+    margin-right: 20px;
+  }
+
+  .footer-hr{
+    width:95%;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  
+    .footer-section:nth-child(2),
+    .footer-section:nth-child(3) {
+      margin-top: 20px;
+    }
+  
+    .social-icons {
+      margin-top: 20px;
+    }
+  
+    .social-icon {
+      font-size: 20px; /* Adjust icon size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .social-icon {
+      font-size: 18px; /* Further adjust icon size for smaller screens */
+    }
+  }
+  

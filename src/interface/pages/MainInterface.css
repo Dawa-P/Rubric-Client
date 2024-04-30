@@ -1,0 +1,32 @@
+/* MainInterface.css */
+
+.slider-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  
+  .slider-arrows button {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #333;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slider-arrows button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .feature-heading{
+    font-size: 60px;
+    text-align: center;
+    color: #656363;
+
+
+  }
+  

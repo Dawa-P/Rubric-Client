@@ -1,0 +1,35 @@
+.export-buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .export-button {
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .export-button:hover {
+    background-color: #3d87788d
+  }
+  .subject-export-button {
+    width: 95%;
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+ 
+@media (max-width: 768px) {
+    .export-buttons-container {
+      flex-direction: column; 
+    }
+  
+    .export-button {
+      flex: none; 
+      width: 80%;
+      margin-right: 0; 
+      margin-bottom: 10px; 
+    }
+  }

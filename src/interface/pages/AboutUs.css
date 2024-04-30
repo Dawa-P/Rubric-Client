@@ -1,0 +1,39 @@
+/* AboutUs.css */
+
+.about-us-container {
+  width: 100%;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  /* padding: 20px; */
+}
+
+.about-us-content {
+  margin-top: 150px;
+  /* background-color: rgba(225, 239, 239, 0.342); */
+}
+
+.about-us-content h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3d8778;
+  text-align: center;
+}
+
+.about-us-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(161, 158, 158);
+  font-weight: lighter;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* Add more styles as needed */
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    .feature {
+      flex-basis: 100%; /* Make each feature take full width on small screens */
+    }
+  }
+  
